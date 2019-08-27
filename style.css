@@ -1,0 +1,24 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(b.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+.stage {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    text-align: center;
+    margin: 0 auto;
+}
