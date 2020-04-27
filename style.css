@@ -1,31 +1,18 @@
-body,
-html {
-    font-family: 'Ubuntu', sans-serif;
-    height: 100%;
-    width:  100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-body{
-    background: url(hd.jpg) center center no-repeat;
-    background-size: cover;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 img {
-    max-width: 100%;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
-.startup {
-    height: 100vh;
-    
-}
-p{
-    font-size: 1.3em;  
-}
-a{
-    margin: .5em;
-}
-i{
-    margin-right: .2em;
+.my-bg{
+    background-color: rgba(150,150,150,.5);
+    height: 70vh;
 }
