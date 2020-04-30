@@ -1,0 +1,20 @@
+html , body{
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.txt-clr{
+    color: rgb(66,66,66);
+}
+.bg-my{
+    background-color: rgba(204, 204, 204, .4);
+    border-radius: 8px;
+    margin-top: 10vh;
+    height: 80vh;
+}
+.my-img{
+    height: 200px;
+    width: 200px;
+}
