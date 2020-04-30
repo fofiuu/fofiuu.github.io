@@ -6,15 +6,19 @@ html , body{
   background-size: cover;
 }
 .txt-clr{
-    color: rgb(66,66,66);
+    color: rgb(50,50,50);
 }
 .bg-my{
-    background-color: rgba(204, 204, 204, .4);
-    border-radius: 8px;
+    background-color: rgba(200, 200, 200, .4);
+    border-radius: 10px;
     margin-top: 10vh;
     height: 80vh;
+    -webkit-box-shadow: 0px 0px 50px 30px black;
+    box-shadow: 0px 0px 50px 30px black;
+   
 }
 .my-img{
     height: 200px;
     width: 200px;
+    
 }
